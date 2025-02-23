@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-session",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamaeyes/nodejs-session.git"
+  },
+  "author": "hamaeyes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hamaeyes/nodejs-session/issues"
+  },
+  "homepage": "https://github.com/hamaeyes/nodejs-session#readme",
+  "dependencies": {
+    "connect-redis": "^8.0.1",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "ioredis": "^5.5.0",
+    "morgan": "^1.10.0",
+    "redis": "^4.7.0"
+  }
+}
